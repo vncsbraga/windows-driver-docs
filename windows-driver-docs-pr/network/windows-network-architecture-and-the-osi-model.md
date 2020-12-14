@@ -69,7 +69,7 @@ The transport layer ensures that messages are delivered error free, in sequence,
 
 A minimal transport layer is required in protocol stacks that include a reliable network or LLC sublayer that provides virtual circuit capability. For example, because the NetBEUI transport driver for Windows is an OSI-compliant LLC sublayer, its transport layer functions are minimal. If the protocol stack does not include an LLC sublayer, and if the network layer is unreliable and/or supports datagrams (as with TCP/IP's IP layer or NWLink's IPX layer), the transport layer should include frame sequencing and acknowledgment, as well as retransmission of unacknowledged frames.
 
-In the Windows network architecture, the transport layer is implemented by a [protocol driver](./roadmap-for-developing-ndis-protocol-drivers.md), which is sometimes referred to a *transport driver*.
+In the Windows network architecture, the transport layer is implemented by a [protocol driver](./roadmap-for-developing-ndis-protocol-drivers.md), which is sometimes referred to as *transport driver*.
 
  
 
